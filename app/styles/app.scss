@@ -14,4 +14,14 @@ $m-gutter: 1rem;
 @import 'box-sizing';
 @import 'resets';
 @import 'layout';
+@import 'sections';
 @import 'top-nav';
+
+.hero {
+  &__player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
