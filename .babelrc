@@ -1,0 +1,16 @@
+{
+  "presets": [
+    [
+      "latest",
+      {
+        "es2017": false,
+        "es2015": {
+          "modules": false
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-object-rest-spread"
+  ]
+}
