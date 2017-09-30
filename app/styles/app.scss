@@ -9,18 +9,28 @@ $c-sand: #efeeea;
 // Measurements
 $m-gutter: 1rem;
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
 @import 'box-sizing';
 @import 'resets';
 @import 'layout';
 @import 'top-nav';
 
-.hero {
-  &__player {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+
+.logo {
+  max-width: 10rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-left: -1rem;
+  overflow-x: scroll;
+
+  &__item {
+    display: inline-block;
+    flex-basis: calc(100% / 3 - 1rem - 1rem);
+    flex-grow: 1;
+    // max-width: 100%;
+    margin: 1rem;
+    background: $c-charcoal;
   }
 }
