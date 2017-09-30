@@ -1,0 +1,15 @@
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  > * + * {
+    margin-left: $m-gutter;
+  }
+}
