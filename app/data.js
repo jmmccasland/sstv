@@ -5,11 +5,11 @@ export default {
       videos: [
         {
           title: 'Hey Carolina',
-          url: '<iframe width="560" height="315" src="https://www.youtube.com/embed/jt1xa7uSrK4" frameborder="0" allowfullscreen></iframe>'
+          id: 'jt1xa7uSrK4'
         },
         {
           title: 'Alright, Kid',
-          url: '<iframe width=\'560\' height=\'315\' src=\'https://www.youtube.com/embed/S1vwGCyppTE\' frameborder=\'0\' allowfullscreen></iframe>'
+          id: 'S1vwGCyppTE'
         }
       ]
     },
@@ -18,11 +18,11 @@ export default {
       videos: [
         {
           title: 'Yesterday A Hero',
-          url: '<iframe width="560" height="315" src="https://www.youtube.com/embed/roUOa_uYYks" frameborder="0" allowfullscreen></iframe>'
+          id: 'roUOa_uYYks'
         },
         {
           title: 'Cult of My Own',
-          url: '<iframe width="560" height="315" src="https://www.youtube.com/embed/fLCyfIr37EY" frameborder="0" allowfullscreen></iframe>'
+          id: 'fLCyfIr37EY'
         }
       ]
     },
@@ -31,15 +31,28 @@ export default {
       videos: [
         {
           title: 'Appomattox',
-          url: '<iframe width="560" height="315" src="https://www.youtube.com/embed/rHiPuI08SiI" frameborder="0" allowfullscreen></iframe>'
+          id: 'rHiPuI08SiI'
         },
         {
           title: 'Bird\'s Eye View',
-          url: '<iframe width="560" height="315" src="https://www.youtube.com/embed/S32853vXVqI" frameborder="0" allowfullscreen></iframe>'
+          id: 'S32853vXVqI'
         },
         {
           title: 'Subaru',
-          url: '<iframe width="560" height="315" src="https://www.youtube.com/embed/v5YzqzwO1eA" frameborder="0" allowfullscreen></iframe>'
+          id: 'v5YzqzwO1eA'
+        },
+        {
+          title: 'Mattress King',
+          id: 'xEIdLvEtY1A'
+        }
+      ]
+    },
+    {
+      artist: 'A Will Away',
+      videos: [
+        {
+          title: 'Pay Raise',
+          id: 'OadUAwfjJRU'
         }
       ]
     },

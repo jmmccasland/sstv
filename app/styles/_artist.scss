@@ -1,6 +1,6 @@
 .artist {
   position: relative;
-  margin-top: $m-gutter * 2;
+  // margin-top: $m-gutter * 2;
 
   &__name {
     display: block;
@@ -10,18 +10,38 @@
   &__row {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     margin: 0 0 0 -1rem;
     overflow-x: scroll;
 
     &__item {
-      flex-basis: calc(100% / 3 - 1rem - 1rem);
+      min-width: calc(100% / 2.5 - 1rem - 1rem);
       margin: $m-gutter;
       background: $c-charcoal;
 
+      > img,
       > iframe {
         min-width: 100%;
         max-width: calc(100vw - 1rem - 1rem);
       }
     }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .artist__row__item {
+    // min-width: calc(100% / 2 - 1rem - 1rem);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .artist__row__item {
+    min-width: calc(100% - 1rem - 1rem);
   }
 }
