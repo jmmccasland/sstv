@@ -19,19 +19,33 @@ $m-gutter: 1rem;
   max-width: 10rem;
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
-  margin-left: -1rem;
-  background: green;
+.section--artists {
+}
+
+.artist {
+  position: relative;
+  margin-top: $m-gutter;
   overflow-x: scroll;
 
-  &__item {
-    display: inline-block;
-    flex-basis: calc(100% / 3 - 1rem - 1rem);
-    flex-grow: 1;
-    // max-width: 100%;
-    margin: 1rem;
-    background: $c-charcoal;
+  &__name {
+    display: block;
+    margin: 0 0 0 $m-gutter;
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+
+    &__item {
+      flex-grow: 1;
+      width: calc(100% / 2 - 1rem - 1rem);
+      max-width: 100%;
+      margin: 1rem;
+      background: $c-charcoal;
+
+      > iframe {
+        min-width: 100%;
+      }
+    }
   }
 }
