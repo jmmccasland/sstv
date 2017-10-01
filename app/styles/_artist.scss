@@ -1,6 +1,6 @@
 .artist {
   position: relative;
-  margin-top: $m-gutter * 2;
+  // margin-top: $m-gutter * 2;
 
   &__name {
     display: block;
@@ -12,6 +12,11 @@
     flex-direction: row;
     margin: 0 0 0 -1rem;
     overflow-x: scroll;
+
+    &::-webkit-scrollbar {
+      width: 0;
+      background: transparent;
+    }
 
     &__item {
       flex-basis: calc(100% / 3 - 1rem - 1rem);

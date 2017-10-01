@@ -40,6 +40,31 @@ export default {
         {
           title: 'Subaru',
           url: '<iframe width="560" height="315" src="https://www.youtube.com/embed/v5YzqzwO1eA" frameborder="0" allowfullscreen></iframe>'
+        },
+        {
+          title: 'Matress King',
+          url: '<iframe width="560" height="315" src="https://www.youtube.com/embed/xEIdLvEtY1A" frameborder="0" allowfullscreen></iframe>'
+        }
+      ]
+    },
+    {
+      artist: 'A Will Away',
+      videos: [
+        {
+          title: 'Pay Raise',
+          url: '<iframe width="560" height="315" src="https://www.youtube.com/embed/OadUAwfjJRU" frameborder="0" allowfullscreen></iframe>'
+        },
+        {
+          title: 'Bird\'s Eye View',
+          url: '<iframe width="560" height="315" src="https://www.youtube.com/embed/S32853vXVqI" frameborder="0" allowfullscreen></iframe>'
+        },
+        {
+          title: 'Subaru',
+          url: '<iframe width="560" height="315" src="https://www.youtube.com/embed/v5YzqzwO1eA" frameborder="0" allowfullscreen></iframe>'
+        },
+        {
+          title: 'Matress King',
+          url: '<iframe width="560" height="315" src="https://www.youtube.com/embed/xEIdLvEtY1A" frameborder="0" allowfullscreen></iframe>'
         }
       ]
     },
