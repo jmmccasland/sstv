@@ -23,9 +23,9 @@
       margin: $m-gutter;
       background: $c-charcoal;
 
-      > iframe {
-        min-width: 100%;
-        max-width: calc(100vw - 1rem - 1rem);
+      > * {
+        min-width: 100% !important;
+        max-width: calc(100vw - 1rem - 1rem) !important;
       }
     }
   }
