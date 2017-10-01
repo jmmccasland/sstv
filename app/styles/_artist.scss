@@ -1,0 +1,27 @@
+.artist {
+  position: relative;
+  margin-top: $m-gutter * 2;
+
+  &__name {
+    display: block;
+    margin: 0;
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 -1rem;
+    overflow-x: scroll;
+
+    &__item {
+      flex-basis: calc(100% / 3 - 1rem - 1rem);
+      margin: $m-gutter;
+      background: $c-charcoal;
+
+      > iframe {
+        min-width: 100%;
+        max-width: calc(100vw - 1rem - 1rem);
+      }
+    }
+  }
+}

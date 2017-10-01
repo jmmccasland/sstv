@@ -13,39 +13,9 @@ $m-gutter: 1rem;
 @import 'resets';
 @import 'layout';
 @import 'top-nav';
+@import 'artist';
 
 
 .logo {
   max-width: 10rem;
-}
-
-.section--artists {
-}
-
-.artist {
-  position: relative;
-  margin-top: $m-gutter;
-  overflow-x: scroll;
-
-  &__name {
-    display: block;
-    margin: 0 0 0 $m-gutter;
-  }
-
-  &__row {
-    display: flex;
-    flex-direction: row;
-
-    &__item {
-      flex-grow: 1;
-      width: calc(100% / 2 - 1rem - 1rem);
-      max-width: 100%;
-      margin: 1rem;
-      background: $c-charcoal;
-
-      > iframe {
-        min-width: 100%;
-      }
-    }
-  }
 }
