@@ -1,6 +1,6 @@
 .artist {
   position: relative;
-  // margin-top: $m-gutter * 2;
+  margin-top: $m-gutter * 2;
 
   &__name {
     display: block;
@@ -24,8 +24,15 @@
       background: $c-charcoal;
 
       > * {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      > * > * {
         min-width: 100% !important;
         max-width: calc(100vw - 1rem - 1rem) !important;
+        margin: -65px 0;
       }
     }
   }
