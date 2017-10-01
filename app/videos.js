@@ -5,6 +5,7 @@ export default function () {
 
   // Loop through playlists
   for (let i = 0; i < data.playlists.length; i += 1) {
+    // create artist container row
     const artist = document.createElement('DIV');
     artist.classList.add('artist');
     sectionArtists.appendChild(artist);
