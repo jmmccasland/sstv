@@ -40,17 +40,17 @@
   height: 100%;
 }
 
-@media (min-aspect-ratio: 16/9) {
+@media (min-aspect-ratio: 16 / 9) {
   .fullscreen-bg__video {
-    height: 300%;
     top: -100%;
+    height: 300%;
   }
 }
 
-@media (max-aspect-ratio: 16/9) {
+@media (max-aspect-ratio: 16 / 9) {
   .fullscreen-bg__video {
-    width: 300%;
     left: -100%;
+    width: 300%;
   }
 }
 
