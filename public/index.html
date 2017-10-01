@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Sanctuary Sessions</title>
   <link rel="stylesheet" href="/app.css">
   <meta name="viewport" content="width=device-width">
 </head>
+
 <body>
 
   <!-- Top Nav -->
@@ -13,18 +15,37 @@
     <div class="container">
       <div class="top-nav">
         <div class="logo">
-          <img src="./images/logo.png" alt="Sanctuary Sessions">
+          <img src="./images/logo-sand.png" alt="Sanctuary Sessions">
         </div>
       </div>
     </div>
   </div>
 
-<!-- Artist Container -->
-<div class="section section--artists">
+  <!-- Hero w/ Video BG -->
+  <div class="section section--hero">
+    <div class="fullscreen-bg">
+      <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+        <!-- <source src="video/big_buck_bunny.webm" type="video/webm"> -->
+        <source src="video/demoreel.mp4" type="video/mp4">
+        <!-- <source src="video/big_buck_bunny.ogv" type="video/ogg"> -->
+      </video>
+    </div>
+    <div class="section--hero__overlay"></div>
+    <div class="container">
+      <div class="hero">
+        <h1>Bring the concert to you.</h1>
+        <h2>The concert experience in your web browser. Bring everything but the beer soaked floor to wherever you are.</h2>
+      </div>
+    </div>
+  </div>
 
-</div>
+  <!-- Artist Container -->
+  <div class="section section--artists">
+    <!-- // this is where all the javascript renders -->
+  </div>
 
 
   <script src="/app.js" charset="utf-8"></script>
 </body>
+
 </html>

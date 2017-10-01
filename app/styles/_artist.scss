@@ -1,3 +1,9 @@
+.section--artists {
+  position: relative;
+  top: 4.611111111rem;
+  margin-top: $m-gutter;
+}
+
 .artist {
   position: relative;
   // margin-top: $m-gutter * 2;
@@ -15,7 +21,7 @@
     overflow-x: scroll;
 
     &__item {
-      min-width: calc(100% / 2.5 - 1rem - 1rem);
+      min-width: calc(100% / 2.25 - 1rem - 1rem);
       margin: $m-gutter;
       background: $c-charcoal;
 
@@ -36,7 +42,7 @@
 
 @media screen and (max-width: 1000px) {
   .artist__row__item {
-    // min-width: calc(100% / 2 - 1rem - 1rem);
+    min-width: calc(100% / 1.75 - 1rem - 1rem);
   }
 }
 
