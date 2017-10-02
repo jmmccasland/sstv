@@ -6,6 +6,10 @@ function createYoutubeVideo(i, j) {
   const youtube = document.createElement('DIV');
   youtube.classList.add('youtube');
 
+  const playBtn = document.createElement('DIV');
+  playBtn.classList.add('play-button');
+  youtube.appendChild(playBtn);
+
   // thumbnail image source.
   const source = `https://img.youtube.com/vi/${data.playlists[i].videos[j].id}/sddefault.jpg`;
 
@@ -53,7 +57,6 @@ for (let i = 0; i < data.playlists.length; i += 1) {
   for (let j = 0; j < data.playlists[i].videos.length; j += 1) {
     const rowItem = document.createElement('DIV');
     rowItem.classList.add('artist__row__item');
-    // rowItem.innerHTML = data.playlists[i].videos[j].url;
     row.appendChild(rowItem);
 
     const video = createYoutubeVideo(i, j);

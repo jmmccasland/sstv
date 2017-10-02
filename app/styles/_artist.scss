@@ -48,6 +48,7 @@
 
 @media screen and (max-width: 650px) {
   .artist__row__item {
-    min-width: calc(100% - 1rem - 1rem);
+    min-width: calc(100% / 1.25 - 0.5rem - 0.5rem);
+    margin: $m-gutter / 2;
   }
 }
