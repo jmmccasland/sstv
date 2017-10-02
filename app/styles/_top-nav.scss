@@ -1,11 +1,13 @@
 .top-nav {
-  // padding: $m-gutter;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-right {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: $c-sand;
 
   > * + * {
     margin-left: $m-gutter;
