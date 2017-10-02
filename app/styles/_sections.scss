@@ -1,0 +1,32 @@
+.section--top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: $c-charcoal;
+  z-index: 999;
+}
+
+.section--hero {
+  display: flex;
+  position: relative;
+  top: 4.611111111rem;
+  justify-content: flex-end;
+  width: 100%;
+  height: 37rem;
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: $t-sand;
+    z-index: 1;
+  }
+
+  > .container {
+    height: auto;
+    overflow: auto;
+  }
+}

@@ -11,49 +11,17 @@ $t-sand: rgba(238, 232, 209, 0.5);
 // Measurements
 $m-gutter: 1rem;
 
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+@import 'font-awesome';
 @import 'box-sizing';
 @import 'resets';
 @import 'layout';
+@import 'sections';
 @import 'top-nav';
 @import 'hero';
 @import 'artist';
 @import 'videos';
 
-
 .logo {
   max-width: 7rem;
-}
-
-
-.section--top-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: $c-charcoal;
-  z-index: 999;
-}
-
-.section--hero {
-  display: flex;
-  position: relative;
-  top: 4.611111111rem;
-  justify-content: flex-end;
-  width: 100%;
-  height: 37rem;
-
-  &__overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: $t-sand;
-    z-index: 1;
-  }
-
-  > .container {
-    height: auto;
-    overflow: auto;
-  }
 }

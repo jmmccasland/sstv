@@ -1,5 +1,6 @@
 .top-nav {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -8,6 +9,7 @@
   align-items: center;
   justify-content: space-between;
   color: $c-sand;
+  font-size: 1.5rem;
 
   > * + * {
     margin-left: $m-gutter;
