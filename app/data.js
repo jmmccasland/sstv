@@ -66,6 +66,61 @@ export default {
           title: 'Cheap Wine',
           id: 'OCyWSOXYC14'
         },
+        {
+          title: 'My Sitter',
+          id: 'NQ5WCB5Yr0U'
+        },
+      ]
+    },
+    {
+      artist: 'Holy Pinto',
+      videos: [
+        {
+          title: 'Matches',
+          id: 'dOlouoqyPuI'
+        },
+        {
+          title: 'Very Adult',
+          id: 'wl41moj3yHg'
+        },
+        {
+          title: 'Gold Leaf',
+          id: 'Ihn1vQSgdsI'
+        }
+      ]
+    },
+    {
+      artist: 'Bogues',
+      videos: [
+        {
+          title: 'Sometimes',
+          id: 'Pwg4XFj84_Q'
+        },
+        {
+          title: 'Renting and Trashing a Uhaul Van',
+          id: 'sOI_J9LNXEk'
+        },
+        {
+          title: 'Finger Lakes & The End of Things',
+          id: 'mU415gpxzVA'
+        }
+      ]
+    },
+    {
+      artist: 'Pale Lungs',
+      videos: [
+        {
+          title: 'My Window',
+          id: 'uv6FQyxqmLI'
+        },
+        {
+          title: 'Days Leave',
+          id: 'NYDpa5kmAmI'
+        },
+        {
+          title: 'Sanctuaries',
+          id: '7wfNWkN2kIE'
+        }
       ]
     },
   ]
