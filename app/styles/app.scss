@@ -9,6 +9,15 @@ $t-sand: rgba(238, 232, 209, 0.5);
 
 
 // Fonts
+@font-face {
+    font-family: Visby-Heavy;
+    src: url('./fonts/visby/heavy.otf');
+}
+@font-face {
+    font-family: Visby-Bold;
+    src: url('./fonts/visby/demibold.otf');
+}
+
 $f-xs: 1rem;
 $f-small: 1.5rem;
 $f-reg: 2rem;
