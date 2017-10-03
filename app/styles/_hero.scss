@@ -1,7 +1,8 @@
 .hero {
   position: absolute;
-  bottom: $m-gutter;
-  left: $m-gutter;
+  bottom: 0;
+  left: 0;
+  padding: $m-gutter;
 
   > * {
     position: relative;
@@ -10,15 +11,15 @@
   }
 
   > h1 {
+    @include f-lg;
     margin: 1rem 0;
-    font-size: 4rem;
     font-style: italic;
     font-weight: bolder;
   }
 
   > h2 {
+    @include f-reg;
     margin: 1rem 0;
-    font-size: 2rem;
   }
 }
 
@@ -54,12 +55,12 @@
   }
 }
 
-// @media (max-width: 767px) {
-//   .fullscreen-bg {
-//     background: url('../img/videoframe.jpg') center center / cover no-repeat;
-//   }
-//
-//   .fullscreen-bg__video {
-//     display: none;
-//   }
-// }
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}

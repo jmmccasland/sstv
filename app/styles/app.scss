@@ -8,10 +8,23 @@ $t-sand: rgba(238, 232, 209, 0.5);
 // $t-sand: rgba(238, 237, 234, 0.75);
 
 
+// Fonts
+$f-xs: 1rem;
+$f-small: 1.5rem;
+$f-reg: 2rem;
+$f-md: 3rem;
+$f-lg: 4rem;
+
+
 // Measurements
 $m-gutter: 1rem;
 
+// Screens
+$screen-tablet: 900px;
+$screen-mobile: 600px;
+
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+@import 'typography';
 @import 'font-awesome';
 @import 'box-sizing';
 @import 'resets';

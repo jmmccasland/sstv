@@ -1,0 +1,37 @@
+@mixin f-small {
+  font-size: $f-small;
+}
+
+
+@mixin f-reg {
+  font-size: $f-reg;
+
+  @media screen and (max-width: $screen-tablet ) {
+    font-size: $f-small;
+  }
+
+  @media screen and (max-width: $screen-mobile ) {
+    font-size: $f-xs;
+  }
+}
+
+@mixin f-md {
+  font-size: $f-md;
+
+  @media screen and (max-width: $screen-tablet ) {
+    font-size: $f-reg;
+  }
+}
+
+
+@mixin f-lg {
+  font-size: $f-lg;
+
+  @media screen and (max-width: $screen-tablet ) {
+    font-size: $f-md;
+  }
+
+  @media screen and (max-width: $screen-mobile ) {
+    font-size: $f-reg;
+  }
+}
